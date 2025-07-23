@@ -10,7 +10,6 @@ st.set_page_config(page_title="헬멧 판별기", layout="centered")
 logging.getLogger("streamlit").setLevel(logging.ERROR)
 
 # ── OpenAI 초기화 ─────────────────────────────────
-load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # ── 화면 구성 ────────────────────────────────────
