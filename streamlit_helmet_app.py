@@ -9,7 +9,7 @@ st.set_page_config(page_title="헬멧 판별기", layout="centered")
 logging.getLogger("streamlit").setLevel(logging.ERROR)
 
 # ── OpenAI 초기화 ─────────────────────────────────
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key=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)
 
 # ── 화면 구성 ────────────────────────────────────
 st.title("🛴 킥보드 탑승 헬멧 판별기")
