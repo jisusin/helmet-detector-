@@ -1,7 +1,6 @@
 import os, base64, logging, json
 from io import BytesIO
 from PIL import Image
-from dotenv import load_dotenv
 import streamlit as st
 from openai import OpenAI  # 1.x SDK
 
